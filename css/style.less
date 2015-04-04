@@ -14,7 +14,7 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 // Core variables
-@import "../less/variables.less";
+@import (reference) "../bower_components/bootstrap/less/variables.less";
 
 // Core Mixins
 @import "mixins.less";
@@ -31,6 +31,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* Colors: */
 
+@white: #ffffff;
 @black: #333333;
 
 body {
@@ -38,6 +39,6 @@ body {
 	font-size: 16px;
 }
 .site-title {
-	margin: 120px 0 0 120px;
+	margin: 20px 0 0 20px;
 	padding: 0 0 0 0;
 }
