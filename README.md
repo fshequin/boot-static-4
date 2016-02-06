@@ -11,7 +11,7 @@ A basic responsive site framework
 3. FontAwesome icon fonts version 4.5.0
 4. A style.scss starter file that compiles to style.css
 5. A site.js that compiles to a site.min.js file
-6. An index.php file as the base index file
+6. An index.html file
 
 **Notes:** 
 
