@@ -1,16 +1,17 @@
-Boot-static
+Boot-static-4
 ====
 
-A basic site framework
+A basic responsive site framework
 ----------------------
 
 **Includes:**
 
-1. Twitter Bootstrap 3.3.4 distribution files - css, js, glyphicons
-2. Twitter Bootstrap 3.3.4 LESS files, which compile to the CSS folder
-3. A style.less starter file that compiles to style.css for starting Wordpress themes
-4. A site.js that compiles to a site.min.js file
-5. An index.php file as the base index file
+1. Twitter Bootstrap 4.0.0-alpha.2 distribution files - css, js
+2. Twitter Bootstrap 4.0.0-alpha.2 SCSS files, which compile to the CSS folder
+3. FontAwesome icon fonts version 4.5.0
+4. A style.scss starter file that compiles to style.css for starting Wordpress themes
+5. A site.js that compiles to a site.min.js file
+6. An index.php file as the base index file
 
 **Notes:** 
 
