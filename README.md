@@ -7,7 +7,7 @@ A basic responsive site framework
 **Includes:**
 
 1. Twitter Bootstrap 4.0.0-alpha.2 distribution files - css, js
-2. Twitter Bootstrap 4.0.0-alpha.2 SCSS files, which compile to the CSS folder
+2. Twitter Bootstrap 4.0.0-alpha.2 SCSS, JS files which compile to their respective folders
 3. FontAwesome icon fonts version 4.5.0
 4. A style.scss starter file that compiles to style.css for starting Wordpress themes
 5. A site.js that compiles to a site.min.js file
