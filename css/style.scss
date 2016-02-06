@@ -37,9 +37,6 @@ $orange: #ff5d00;
 
 body {
 	@font-1;
-	//font-family: @font-family-monospace;
-	font-size: 18px;
-	padding: 15px;
 	color: $black;
 }
 .main-column {
@@ -47,6 +44,6 @@ body {
 	padding-bottom: 20px;
 }
 .site-title {
-	margin: 20px 0 0 0;
+	margin: 20px 0 10px 0;
 	padding: 0 0 0 0;
 }
