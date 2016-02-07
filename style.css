@@ -16,25 +16,24 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* 
 
 /* Fonts & Mixins */
-@font-1 {
-  font-family: arial, helvetica, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 /* Colors: */
 body {
-  @font-1;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #333333;
 }
 
-.main-column {
+.main {
   background-color: #eceeef;
-  padding-bottom: 20px;
+  margin-top: 15px;
+  padding: 20px;
+  border: 1px solid #45504b;
+  border-radius: 5px;
 }
 
 .site-title {
-  margin: 20px 0 10px 0;
+  margin: 10px 0 10px 0;
   padding: 0 0 0 0;
 }
 /*# sourceMappingURL=style.css.map */

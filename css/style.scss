@@ -14,6 +14,7 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 // Core variables
+
 @import "../bower_components/bootstrap/scss/_variables.scss";
 
 // Core Mixins
@@ -23,27 +24,33 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* Fonts & Mixins */
 
-@font-1 {
-	font-family: arial, helvetica, sans-serif;
+@mixin font-1 {
+	font-family: helvetica, arial, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+}
+@mixin site-border {
+	border: 1px solid $gray-green;
+	border-radius: 5px;
 }
 
 /* Colors: */
 
 $white: #ffffff;
 $black: #333333;
-$orange: #ff5d00;
+$gray-green: #45504b;
 
 body {
-	@font-1;
+	@include font-1;
 	color: $black;
 }
-.main-column {
+.main {
 	background-color: $gray-lighter;
-	padding-bottom: 20px;
+	margin-top: 15px;
+	padding: 20px;
+	@include site-border;
 }
 .site-title {
-	margin: 20px 0 10px 0;
+	margin: 10px 0 10px 0;
 	padding: 0 0 0 0;
 }
