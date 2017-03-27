@@ -17,8 +17,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @import "../bower_components/bootstrap/scss/_variables.scss";
 
-// Core Mixins
-//@import "mixins.less";
 
 /* 
 
@@ -40,6 +38,7 @@ $white: #ffffff;
 $black: #333333;
 $gray-green: #45504b;
 
+
 body {
 	@include font-1;
 	color: $black;
@@ -53,4 +52,10 @@ body {
 .site-title {
 	margin: 10px 0 10px 0;
 	padding: 0 0 0 0;
+	i.fa {
+		display: inline-block;
+		position: relative;
+		top: -3px;
+		font-size: 30px;
+	}
 }
