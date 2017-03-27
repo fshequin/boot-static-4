@@ -1107,11 +1107,11 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/bower_components\/bootstrap\/scss\/bootstrap.scss",
-		"oF": 0,
-		"oS": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/bower_components\/bootstrap\/dist\/css\/bootstrap.min.css",
+		"oF": 3,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/bower_components\/bootstrap\/scss\/mixins\/_alert.scss": {
